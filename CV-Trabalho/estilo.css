@@ -3,32 +3,42 @@ html {
 }
 
 header {
-    margin: 3em 15em;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    border-radius: 1rem;
 }
+
 
 img {
     width: 10vw;
     float: left;
-    padding: 1em 0;
+    padding: 1em 1em;
+    border-radius: 50%;
 }
 
-#Titulo {
-    padding: 1em 3em;
-    margin: 0.5em 3em;
+.Titulo {
+    padding: 1em 1em; 
     font-size: 3em;
     font-family: 'Orbitron', sans-serif;
     letter-spacing: 0.5em;
 }
 
 .subTitulo {
- 
-    font-size: 1.4em;
+    font-size: 1.3rem;
 }
 
-h3 {
-    font-size: 2em;
+h3{
+    font-size: 1.7rem;
+}
+p{
+    font-size: 1.6rem;
 }
 
-p {
-    font-size: 1.6em;
+.Objetivo{
+    background-color: antiquewhite;
+    justify-content: center;
+    margin: 1rem;
+    padding: 2rem;
+    
 }
