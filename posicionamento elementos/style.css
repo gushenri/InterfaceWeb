@@ -1,0 +1,46 @@
+.conteiner{
+    border: 2px solid black;
+    padding: 16px;
+    width: 450px;
+    margin-bottom: 16px;
+    background-color: rgba(255,0,0,5);
+}
+.item{
+    background-color: darkkhaki;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.fit-content {     /*Coloca a largura a qual precisa*/
+    width: fit-content;
+    height: 150px;
+}
+.min-content {     /*menor espaço possível sem quebrar a palavra*/
+    width: min-content;
+    height: 300px;
+}
+.max-content {          /*maior espaço possível*/
+    width: max-content;
+    height: 300px;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.overflow-scroll{
+    overflow: scroll;
+}
+.overflow-auto{
+    overflow: auto;
+}
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+.overflow-y-hidden{
+    overflow-y: hidden;
+}
+.overflow-visible{
+    overflow: visible;
+
+}
+.overflow-x-scroll{
+    overflow-x: scroll;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Unidade de Medida</title>
+    <!--EM unidade de medida, REM para quando dentro de uma classe que ele utilize a medida padrão-->
+    <style>
+        html {
+            font-size: 62.5%;
+            /* o padrão em 10px e não em 16px*/
+        }
+        h1 {
+            font-size: 2.4em;
+        }
+        p {
+            font-size: 1.6em;
+            /*em unidade de medida mais utilizado */
+        }
+        b {
+            color: red;
+            font-size: 0.5em;
+        }
+        .modificado {
+            font-size: 2em;
+            background-color: #ccc;
+            width: 10em;
+        }
+        .porcentagem{
+            width: 500%; /* % sempre irá pegar o elemento "Pai" diferente do EM */
+            height: 60%;
+            background-color: yellow;
+        }
+        
+        .porcentagem p{
+            background-color: transparent;
+            padding: 10%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Unidade de Medida</h1>
+    <p>Lorem ipsum, dolor sit amet <b> adipisicing elit.</b> Ullam excepturi
+        suscipit, iusto ratione earum tempore recusandae, reprehenderit maiores
+        incidunt laboriosam doloremque voluptatibus, quas id velit aliquam?
+        Exercitationem, aut! Alias, consequatur.</p>
+    <p class="modificado">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis et atque
+        voluptatibus sit deserunt laborum beatae facere nesciunt modi
+        consequatur repellendus debitis ducimus, ipsam hic soluta natus.
+        Dolorum, porro commodi?</p>
+    <div class="porcentagem">
+        <p>Testatando Porcentagem</p>
+    </div>
+        
+</body>
+</html>

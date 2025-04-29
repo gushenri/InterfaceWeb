@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<!--
+o CSS funciona assim:
+
+Seletor (podemos utilizar classes e Ids - classes é coletivos
+ podendo ter subclassses e ids é unico)
+ {
+ propriedade : valor 
+
+}
+ -->
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Introdução ao CSS</title>
+    <style>
+        /*CSS INTERNO*/
+        .paragrafos{
+            background-color: blue;
+            color: white;
+            font-size: 25pt;
+        }
+        #paragrafo_especial{
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!--INLINE CSS-->
+    <!-- <p style="color: red; font-size: 35pt;">TEXTO</p> -->
+
+    <p class="paragrafos">Meu primeiro paragrafo </p>
+    <p >Meu segundo paragrafo </p>
+    <p class="paragrafos">Meu terceiro paragrafo </p>
+    <p id="paragrafo_especial">Meu quarto paragrafo </p>
+
+</body>
+</html>
+
+
+
