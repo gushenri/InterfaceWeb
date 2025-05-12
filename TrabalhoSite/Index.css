@@ -1,0 +1,32 @@
+html {
+    font-size: 62, 5%;
+}
+
+aside {
+    height: 100vh;
+    width: 25vw;
+    background: beige;
+    padding: 20px;
+    margin: 30px;
+}
+
+.Banner__EsquerdaCima{
+    background-color: aqua;
+    padding: 2em;
+    border-radius: 2em
+}
+button{
+    margin: 2em;
+    background-color: blueviolet;
+    border-radius: 20px;
+    font-size: 1.2em;
+}
+.Banner__EsquerdaBaixo{
+    margin: 1em;
+    background-color: aqua;
+    padding: 2em;
+    border-radius: 2em;
+}
+header{
+    justify-content: center;
+}
