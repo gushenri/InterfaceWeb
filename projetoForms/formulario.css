@@ -1,0 +1,55 @@
+html{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+form{
+    width: 95%;
+    min-width: 30em;
+    max-width: 40em;
+    background-color: aliceblue;
+    height: 95%;
+    
+   
+}
+
+label, input, textarea{
+    font-family: sans-serif;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+input, textarea{
+    border: 2px solid transparent;
+    border-bottom-color: blue;
+    padding: .75em;
+    margin: .5em 0 2.5em;
+    color: white;
+    outline: 0;
+
+}
+legend{
+    padding: .5em;
+    text-align: center;
+    font-weight: bold;
+
+    font-size: 1.3em;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: .7em;
+    font-size: 1.2em;
+    border: none;
+}
