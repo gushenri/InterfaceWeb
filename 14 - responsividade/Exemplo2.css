@@ -1,0 +1,11 @@
+ body {
+     background-color: yellow;
+     color: red;
+     font-family: sans-serif;
+ }
+
+ a::after{ /*para saber qual é o link  quando for imprimir a página*/
+    content: "("attr(href)")";
+    display: inline-block;
+    margin-left: .5em;
+ }
